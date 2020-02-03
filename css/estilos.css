@@ -13,7 +13,7 @@
 }
 .logo-tomi
 {
-  width: 50%;
+  width: 30%;
   margin: auto;
 }
 .logo-tomi img
@@ -28,10 +28,12 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  font-family: 'Lato', sans-serif;
 }
 .navegacion li
 {
   width: 15%;
   flex-grow: 1;
   margin: 10px;
+  color: linear-gradient(to left,rgb(48,42,105) ,rgb(229,184,66 ); /*rgb(48,42,105) rgb(229,184,66)*/;
 }
