@@ -55,4 +55,8 @@
   width: 25%;
   margin: auto;
   flex-grow: 1;
+  display: block;
+}
+.cont-maestros h2{
+
 }
