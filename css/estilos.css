@@ -11,3 +11,18 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+.logo-tomi{
+  width: 50%;
+  margin: auto;
+}
+.logo-tomi img{
+  width: 25%;
+  margin: 10px;
+}
+.navegacion{
+  width: 45%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
