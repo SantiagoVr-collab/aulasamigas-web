@@ -6,8 +6,8 @@
 .toolbar
 {
   width: 100%;
-  margin: 20px auto;
-  margin-bottom: none;
+  margin: 10px auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,7 +40,7 @@
 }
 .hrs{
   width: 100%;
-  height:35px;
+  height: 3px;
   background: rgb(229,184,66 );
   margin: auto;
 }
