@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
 }
-.toolbar{
+.toolbar
+{
   width: 100%;
   margin: 20px auto;
   display: flex;
