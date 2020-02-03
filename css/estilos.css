@@ -7,6 +7,7 @@
 {
   width: 100%;
   margin: 20px auto;
+  margin-bottom: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,5 +36,11 @@
   width: 15%;
   flex-grow: 1;
   margin: 10px;
-  color: linear-gradient(to left,rgb(48,42,105) ,rgb(229,184,66 ); /*rgb(48,42,105) rgb(229,184,66)*/;
+  color:rgb(229,184,66 );
+}
+.navegacion hr{
+  width: 90%;
+  height: 2px;
+  color: rgb(229,184,66 );
+  margin: auto;
 }
