@@ -44,3 +44,15 @@
   background: rgb(229,184,66 );
   margin: auto;
 }
+.cont-targetas{
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cont-maestros{
+  width: 25%;
+  margin: auto;
+  flex-grow: 1;
+}
