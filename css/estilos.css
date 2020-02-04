@@ -9,12 +9,20 @@ body {
   font-family: 'lato';
 }
 
+.fondo_toolbar {
+  width: 100%;
+  height: 90px;
+  box-shadow: #dfdfdf 3px 5px 15px 2px;
+}
+
 .toolbar {
   width: 100%;
+  height: max-content;
   max-width: 1100px;
   margin: auto;
   display: flex;
   font-weight: 300;
+
 }
 
 .logo-tomi img {
@@ -42,7 +50,7 @@ body {
 
 .navegacion li {
   margin-left: 20px;
-  color: #cccccc;
+  color: #696969;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -110,6 +118,21 @@ body {
   margin-bottom: 0px;
   margin-left: 20px;
   margin-right: 20px;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.acercaDe .txt_acercaDe {
+  width: 100%;
+  max-width: 1100px;
+  margin:auto;
+}
+
+.acercaDe .txt_acercaDe p {
+  color: #696969;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cont-targetas{
@@ -162,9 +185,9 @@ margin: 20px auto;
 }
 .contenedor_targeta:hover figure{
   -webkit-transform: perspective(600px) rotateY(180deg);
-   -ms-transform: perspective(600px) rotateY(180deg);
-   -o-transform: perspective(600px) rotateY(180deg);
-   transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
 }
 figure hr{
   width: 90%;
