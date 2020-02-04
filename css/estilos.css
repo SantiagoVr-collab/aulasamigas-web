@@ -98,6 +98,20 @@ body {
   color: #000;
 }*/
 
+.acercaDe {
+  width: 100%;
+  max-width: 1100px;
+  margin:auto;
+}
+
+.acercaDe h2 {
+  color: #0f3e4d;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .cont-targetas{
   width: 100%;
   margin: 20px auto;
