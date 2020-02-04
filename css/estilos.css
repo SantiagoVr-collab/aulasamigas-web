@@ -35,14 +35,19 @@
   display: flex;
   list-style: none;
   font-family: 'Lato';
+  font-weight: 300;
 }
 .navegacion li
 {
   margin: 10px;
   padding: 5px;
   font-size: 15px;
-  color: #dfdfdf;
+  color: #cccccc;
   cursor: pointer;
+}
+
+.navegacion li:hover {
+  color: #000;
 }
 
 .cont-targetas{
