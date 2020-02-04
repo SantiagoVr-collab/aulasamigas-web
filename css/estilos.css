@@ -70,17 +70,28 @@
   color: #0f3e4d;
 }
 /*Targetas 3D*/
-.cont-maestros figure{
-  width: 90%;
-  margin: 20px auto;
-}
-.cont-maestros figure img{
+figure{
   width: 300px;
   height: 350px;
+  margin: 0;
+  position: relative;
+}
+figure img{
+  width: 100%;
   display: block;
   margin: auto;
 }
 a
 {
   text-decoration: none;
+}
+.contenedor_targeta
+{
+  width: 90%;
+  justify-content: center;
+  margin: 20px auto;
+}
+.contenedor_targeta a{
+  display: inline-block;
+
 }
