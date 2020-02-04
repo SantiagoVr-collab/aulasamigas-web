@@ -61,14 +61,15 @@
   margin: auto;
   flex-grow: 1;
   display: block;
+    font-family: 'Lato',sans-serif;
 }
 .cont-maestros h2{
   width: 90%;
   margin: auto;
   text-align: center;
-  font-family: 'Lato',sans-serif;
   color: #0f3e4d;
 }
+/*Targetas 3D*/
 .cont-maestros figure{
   width: 90%;
   margin: 20px auto;
@@ -78,5 +79,8 @@
   height: 350px;
   display: block;
   margin: auto;
-
+}
+a
+{
+  text-decoration: none;
 }
