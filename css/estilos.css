@@ -133,19 +133,12 @@ a
 {
   text-decoration: none;
 }
-.contenedor_targeta
-{
-width: 90%;
-margin: 20px auto;
-}
-.contenedor_targeta a{
-  width: 90%;
-  margin: 20px auto;
-}
+
 .contenedor_targeta:hover figure{
   -webkit-transform: perspective(600px) rotateY(180deg);
    -ms-transform: perspective(600px) rotateY(180deg);
-   transform: perspective(600px) rotateY(180deg); 
+   -o-transform: perspective(600px) rotateY(180deg);
+   transform: perspective(600px) rotateY(180deg);
 }
 figure hr{
   width: 90%;
@@ -167,7 +160,7 @@ figure .trasera{
   padding: 5px;
   color: #fff;
   transform: perspective(600px) rotateY(180deg);
-  backface-visibility: hidden;
+
   overflow: auto;
 
 footer {
