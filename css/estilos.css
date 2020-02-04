@@ -164,7 +164,10 @@ body {
   position: relative;
   transition: all ease .5s;
   transform-style: preserve-3d;
-  transform: perspective(600px) rotateY(0deg);
+  -webkit-transform: perspective(600px) rotateY(0deg);
+   -ms-transform: perspective(600px) rotateY(0deg);
+   -o-transform: perspective(600px) rotateY(0deg);
+   transform: perspective(600px) rotateY(0deg);
 }
 a
 {
@@ -172,6 +175,7 @@ a
 }
 .contenedor_targeta
 {
+  transform-style: preserve-3d;
 width: 90%;
 margin: 20px auto;
 }
