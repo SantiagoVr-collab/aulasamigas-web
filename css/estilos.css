@@ -11,7 +11,7 @@ body {
 
 .fondo_toolbar {
   width: 100%;
-  height: 90px;
+  height: max-content;
   box-shadow: #dfdfdf 3px 5px 15px 2px;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .logo-tomi img {
   width: 100%;
-  max-width: 100px;
+  max-width: 80px;
   margin: 20px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -42,10 +42,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  margin-left: 20px;
-  margin-top: 32px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .navegacion li {
@@ -115,11 +112,16 @@ body {
 .acercaDe h2 {
   color: #0f3e4d;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   margin-left: 20px;
   margin-right: 20px;
   font-weight: 700;
   font-size: 1.5em;
+}
+
+.acercaDe h2 > span {
+  font-weight: 700;
+  color: #E8BB00;
 }
 
 .acercaDe .txt_acercaDe {
@@ -133,6 +135,7 @@ body {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  font-style: italic;
 }
 
 .cont-targetas{
