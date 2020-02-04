@@ -179,8 +179,11 @@ figure .fontal{
 figure .trasera{
   position: absolute;
   top: 0;
-
+  padding: 5px;
   color: #fff;
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
   transform: perspective(600px) rotateY(180deg);
   backface-visibility: hidden;
   overflow: auto;
