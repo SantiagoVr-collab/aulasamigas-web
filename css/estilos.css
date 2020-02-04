@@ -133,7 +133,15 @@ a
 {
   text-decoration: none;
 }
-
+.contenedor_targeta
+{
+width: 90%;
+margin: 20px auto;
+}
+.contenedor_targeta a{
+  width: 90%;
+  margin: 20px auto;
+}
 .contenedor_targeta:hover figure{
   -webkit-transform: perspective(600px) rotateY(180deg);
    -ms-transform: perspective(600px) rotateY(180deg);
