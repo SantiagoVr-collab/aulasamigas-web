@@ -72,10 +72,6 @@
   color: #0f3e4d;
 }
 /*Targetas 3D*/
-.contenedor_targeta{
-  width: 90%;
-  margin: 20px auto;
-}
  figure{
   width: 300px;
   height: 350px;
@@ -95,6 +91,12 @@ a
 {
   text-decoration: none;
 }
+.contenedor_targeta
+{
+width: 90%;
+margin: 20px auto;
+}
 .contenedor_targeta a{
-  display: inline-block;
+  width: 90%;
+  margin: 20px auto;
 }
