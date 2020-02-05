@@ -22,6 +22,7 @@ body {
   display: flex;
   font-weight: 300;
 
+
 }
 
 .btns {
@@ -80,10 +81,17 @@ body {
   border: .8px solid #0f3e4d;
 }
 
+.logo-tomi {
+  width: 100%;
+
+}
+
 .logo-tomi img {
   width: 100%;
-  max-width: 80px;
-  margin: 20px;
+  max-width: 90px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
