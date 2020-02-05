@@ -9,6 +9,9 @@
   box-sizing: border-box;
 }
 
+.main-information {
+  display: none;
+}
 
 body {
   font-family: 'Lato';
@@ -20,6 +23,7 @@ body {
   margin: auto;
 
   display: none;
+  transition:;
 }
 
 .slider {
@@ -29,11 +33,13 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 .slider label {
-  margin: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -47,10 +53,12 @@ body {
   position: relative;
   border: 0px solid #000;
   border-radius: 5px;
-  background: #f0f0f0;
+  background: #d4d4d4;
   cursor: pointer;
-  font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
+  color: #0f3e4d;
+  font-size: 14px;
+  transition: all .3s ease;
 }
 
 .slider label:before {
@@ -61,28 +69,31 @@ body {
   border: 1.3px solid #0f3e4d;
   border-radius: 2px;
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: 20px;
 }
 
 .slider label:hover {
   background: rgba(15, 62, 77, .5);
-
-.slider input[type="checkbox"]:checked + label {
-  padding: 5px 20px;
 }
 
+.slider label:before {}
 
 .slider input[type="checkbox"] {
   display: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  outline: none;
 }
+
+.slider input[type="checkbox"]:checked + label {
+  padding: 5px 20px;
+  background:  #0f3e4d;
+  color: #fff;
+}
+
+.slider input[type="checkbox"]:checked + label:before {
+  display: none;
+  transition: 1s ease-in-out;
+}
+
 
 
 

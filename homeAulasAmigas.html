@@ -27,9 +27,9 @@
           <button type="button" class="btn-acercaDe">Acerca De</button>
           <button type="button" class="btn-help">¿Necesitas Ayuda?</button>
         </div>
-        <li class="menu-l01">Mestros</li> <!--link para la otra parte con la explicacion de los maestros-->
-        <li class="menu-l02">Colegios</li> <!--link para la otra parte para los colegios-->
-        <li class="menu-l03">Distribuidores</li> <!--link para la otra parte de los distribuidores-->
+        <!--<li class="menu-l01">Mestros</li>--> <!--link para la otra parte con la explicacion de los maestros-->
+        <!--<li class="menu-l02">Colegios</li>--> <!--link para la otra parte para los colegios-->
+        <!--<li class="menu-l03">Distribuidores</li>--> <!--link para la otra parte de los distribuidores-->
       </ul>
     </div>
 
@@ -42,10 +42,21 @@
 
   </div>
   <div class="slider-contenidoPrincipal">
+    <p>Tu decides como funciona, y que esta visible en nuestro sitio.</p>
     <ul class="slider" id="slider">
+
+      <li>
+        <input class="cradio1" type="checkbox" name="nradio" id="sradio0" value="pagina principal">
+        <label for="sradio0">Pagina Principal</label>
+
+        <!--<img src="img/01.jpg" alt="" width="400px">-->
+
+
+      </li>
         <li>
-          <label for="sradio1">Mestros</label>
-          <input type="checkbox" name="nradio" id="sradio1" value="maestros">
+          <input class="cradio1" type="checkbox" name="nradio" id="sradio1" value="maestros">
+          <label for="sradio1">Para Maestros</label>
+
           <!--<img src="img/01.jpg" alt="" width="400px">-->
 
 
@@ -53,16 +64,18 @@
 
 
         <li>
-          <label for="sradio2">Colegios</label>
-          <input type="checkbox" name="nradio" id="sradio2" value="colegios">
+          <input type="checkbox" class="inch" name="nradio" id="sradio2" value="colegios">
+          <label for="sradio2">Para Colegios</label>
+
           <!--<img src="img/02.jpg" alt="" width="400px">-->
 
 
         </li>
 
         <li>
-          <label for="sradio3">Distribuidores</label>
-          <input type="checkbox" name="nradio" id="sradio3" value="Distribuidores">
+          <input type="checkbox" class="inch" name="nradio" id="sradio3" value="Distribuidores">
+          <label for="sradio3">Para Distribuidores</label>
+
           <!--<img src="img/03.jpg" alt="" width="400px">-->
 
 
@@ -70,6 +83,7 @@
     </ul>
 
     <div class="contenedor-maestros" id="container-ms">
+        <h2>Bienvenido maestro a AulasAMiGAS</h2>
         <div class="formulario">
           <form class="form" action="index.html" method="post">
             <h2 class="tlt_form">¿Necesitas más información?</h2>
@@ -79,8 +93,8 @@
   </div>
 
 
-
-
+<div class="main-information" id="main-information">
+<!--
     <div class="hrs">
     </div>
     <div class="container">
@@ -110,7 +124,7 @@
           <a href="#">Obtener más informacion</a>
         </button>
       </div>
-    </div>
+    </div>-->
 
 
     <!--ACERCA DE AULAS AMIGAS-->
@@ -123,7 +137,7 @@
       de enseñanza - aprendizaje, atendiendo los retos del Siglo XXI.</p>
       </div>
     </div>
-
+</div>
 
     <script src="js/jquery.min.js" charset="utf-8"></script>
     <script src="js/Main-content.js" </script>

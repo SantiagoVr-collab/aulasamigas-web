@@ -1,12 +1,29 @@
 $(document).ready(function () {
+  $('#sradio0').click(function () {
+    if ($('#sradio0').is(':checked')) {
+      $('#main-information').css('display', 'block');
+    }else {
+      $('#main-information').css('display', 'none');
+    }
+
+
+  })
+
+
+
+
 
       $('#sradio1').click(function () {
         if ($(this).is(':checked')) {
+
           $('.contenedor-maestros').css('display', 'block');
+
+
 
         }else {
 
           $('.contenedor-maestros').css('display', 'none');
+
         }
 
 
