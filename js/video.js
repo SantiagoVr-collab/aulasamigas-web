@@ -1,2 +1,2 @@
 myvideo = document.getElementById('myVideo');
-myvideo.autoplay(true); 
+myvideo.autoplay(true);
