@@ -13,11 +13,6 @@ body {
   font-family: 'Lato';
 }
 
-.fondo_toolbar {
-  width: 100%;
-  height: max-content;
-  box-shadow: #dfdfdf 3px 1px 5px 2px;
-}
 
 .toolbar {
   width: 100%;
@@ -26,7 +21,7 @@ body {
   margin: auto;
   display: flex;
   font-weight: 300;
-
+  
 }
 
 .btns {
