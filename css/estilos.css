@@ -34,6 +34,15 @@ body {
   display: none;
 }
 
+.slider label {
+  position: relative;
+  z-index: 200;
+}
+
+.slider input[type="radio"] {
+  display: none;
+}
+
 .slider input[type="radio"] {
   position: relative;
   z-index: 50;
@@ -43,6 +52,8 @@ body {
 .slider input[type="radio"]:checked ~ img {
   display: block;
 }
+
+
 
 .toolbar {
   width: 100%;
@@ -243,7 +254,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   font-style: italic;
-  
+
 }
 
 /*Targetas 3D*/
