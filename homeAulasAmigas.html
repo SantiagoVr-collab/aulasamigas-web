@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/Main-content.js" charset="utf-8"></script>
 
     <!--links extras-->
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <!--falta el logo de aulas amigas-->
     <title>Aulas AMiGAS | Home</title>
   </head>
   <body>
-    <div class="toolbar" id="toolbar">
+    <div class="toolbar" id="toolbar" >
       <div class="logo-tomi">
         <img src="img/Logo-Aulas-AMiGAS-HORIZONTAL.png" alt=""> <!--falta el logo de aulas amigas-->
       </div>
@@ -26,9 +26,9 @@
           <button type="button" class="btn-acercaDe">Acerca De</button>
           <button type="button" class="btn-help">¿Necesitas Ayuda?</button>
         </div>
-        <li class="menu-l01">Mestros</li> <!--link para la otra parte con la explicacion de los maestros-->
-        <li class="menu-l02">Colegios</li> <!--link para la otra parte para los colegios-->
-        <li class="menu-l03">Distribuidores</li> <!--link para la otra parte de los distribuidores-->
+        <!--<li class="menu-l01">Mestros</li>--> <!--link para la otra parte con la explicacion de los maestros-->
+        <!--<li class="menu-l02">Colegios</li>--> <!--link para la otra parte para los colegios-->
+        <!--<li class="menu-l03">Distribuidores</li>--> <!--link para la otra parte de los distribuidores-->
       </ul>
     </div>
 
@@ -41,26 +41,73 @@
 
   </div>
   <div class="slider-contenidoPrincipal">
-    <ul class="slider">
+    <p>Tu decides como funciona, y que esta visible en nuestro sitio.</p>
+    <ul class="slider" id="slider">
+
+      <li>
+        <input class="cradio1" type="checkbox" name="nradio" id="sradio0" value="pagina principal">
+        <label for="sradio0">Pagina Principal</label>
+
+        <!--<img src="img/01.jpg" alt="" width="400px">-->
+
+
+      </li>
         <li>
           <label for="sradio1">Mestros</label>
           <input type="radio" name="nradio" id="sradio1" checked>
           <img src="img/01.jpg" alt="" width="400px">
+          <input class="cradio1" type="checkbox" name="nradio" id="sradio1" value="maestros">
+          <label for="sradio1">Para Maestros</label>
+
+          <!--<img src="img/01.jpg" alt="" width="400px">-->
+
         </li>
+
 
         <li>
           <label for="sradio2">Colegios</label>
           <input type="radio" name="nradio" id="sradio2">
           <img src="img/02.jpg" alt="" width="400px">
         </li>
-
         <li>
           <label for="sradio3">Distribuidores</label>
           <input type="radio" name="nradio" id="sradio3">
-          <img src="img/03.jpg" alt="" width="400px">
+          <img src="img/03.jpg" alt=""  width="400px">
         </li>
     </ul>
   </div>
+          <input type="checkbox" class="inch" name="nradio" id="sradio2" value="colegios">
+          <label for="sradio2">Para Colegios</label>
+
+          <!--<img src="img/02.jpg" alt="" width="400px">-->
+
+
+        </li>
+
+        <li>
+          <input type="checkbox" class="inch" name="nradio" id="sradio3" value="Distribuidores">
+          <label for="sradio3">Para Distribuidores</label>
+
+          <!--<img src="img/03.jpg" alt="" width="400px">-->
+
+
+        </li>
+    </ul>
+
+    <div class="contenedor-maestros" id="container-ms">
+        <h2>Bienvenido maestro a AulasAMiGAS</h2>
+        <div class="formulario">
+          <form class="form" action="index.html" method="post">
+            <h2 class="tlt_form">¿Necesitas más información?</h2>
+          </form>
+        </div>
+    </div>
+  </div>
+
+
+<div class="main-information" id="main-information">
+<!--
+>>>>>>> 5eec0948a77016650776dca752e9d15375caef11
     <div class="hrs">
     </div>
     <div class="container">
@@ -90,7 +137,7 @@
           <a href="#">Obtener más informacion</a>
         </button>
       </div>
-    </div>
+    </div>-->
 
 
     <!--ACERCA DE AULAS AMIGAS-->
@@ -103,5 +150,9 @@
       de enseñanza - aprendizaje, atendiendo los retos del Siglo XXI.</p>
       </div>
     </div>
+</div>
+
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/Main-content.js"> </script>
   </body>
 </html>
