@@ -12,7 +12,7 @@ body {
 .fondo_toolbar {
   width: 100%;
   height: max-content;
-  box-shadow: #dfdfdf 3px 5px 15px 2px;
+  box-shadow: #dfdfdf 3px 1px 5px 2px;
 }
 
 .toolbar {
@@ -48,6 +48,7 @@ body {
 .navegacion li {
   margin-left: 20px;
   color: #696969;
+  font-size: 14px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
