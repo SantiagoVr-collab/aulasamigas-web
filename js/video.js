@@ -1,2 +1,2 @@
-var myVideo = document.getElementById("myVideo");
-myVideo.autoplay = true;
+myvideo = document.getElementById('myVideo');
+myvideo.autoplay(true); 

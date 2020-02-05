@@ -25,6 +25,62 @@ body {
 
 }
 
+.btns {
+  width: 100%;
+  max-width: max-content;
+}
+
+.btns .btn-acercaDe {
+  border: none;
+  cursor: pointer;
+  border: .8px solid #cccccc;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  margin: 0px;
+}
+
+.btns .btn-acercaDe:hover {
+  color: #fff;
+  background: #0f3e4d;
+  transition: .2s ease-in-out;
+    border: .8px solid #0f3e4d;
+}
+
+.btns .btn-help {
+  border: none;
+  cursor: pointer;
+  border: .8px solid #cccccc;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+
+.btns .btn-help:hover {
+  color: #fff;
+  background: #0f3e4d;
+  transition: .2s ease-in-out;
+  border: .8px solid #0f3e4d;
+}
+
 .logo-tomi img {
   width: 100%;
   max-width: 80px;
@@ -42,12 +98,16 @@ body {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 .navegacion li {
   margin-left: 20px;
-  color: #696969;
+  padding-top: 3px;
+  color: #4d4d4d;
   font-size: 14px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
