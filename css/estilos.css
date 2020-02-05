@@ -34,24 +34,20 @@ body {
   display: none;
 }
 
-.slider label {
-  position: relative;
-  z-index: 200;
-}
-
-.slider input[type="radio"] {
+.slider .contenedor-maestros {
   display: none;
 }
 
-.slider input[type="radio"] {
+.slider label {
   position: relative;
-  z-index: 50;
-  margin: 10px;
+  z-index: 200;
+  margin: 20px;
 }
 
-.slider input[type="radio"]:checked ~ img {
-  display: block;
-}
+
+
+
+
 
 
 

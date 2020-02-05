@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/Main-content.js" charset="utf-8"></script>
 
     <!--links extras-->
     <link rel="stylesheet" href="css/estilos.css">
@@ -41,13 +42,18 @@
 
   </div>
   <div class="slider-contenidoPrincipal">
-    <ul class="slider">
+    <ul class="slider" id="slider">
         <li>
           <label for="sradio1">Mestros</label>
-          <input type="radio" name="nradio" id="sradio1" checked>
+          <input type="radio" name="nradio" id="sradio1" checked value="maestros">
+          <input type="text" name="selvalue" id="selvalue">
           <!--<img src="img/01.jpg" alt="" width="400px">-->
-          <div class="contenedor-maestros">
-            
+          <div class="contenedor-maestros" id="container-ms">
+              <div class="formulario">
+                <form class="form" action="index.html" method="post">
+                  <h2 class="tlt_form">¿Necesitas más información?</h2>
+                </form>
+              </div>
           </div>
 
         </li>
@@ -115,5 +121,9 @@
       de enseñanza - aprendizaje, atendiendo los retos del Siglo XXI.</p>
       </div>
     </div>
+
+
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+
   </body>
 </html>
