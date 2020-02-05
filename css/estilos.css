@@ -50,6 +50,7 @@ body {
   background: #f0f0f0;
   cursor: pointer;
   font-style: italic;
+  font-weight: 500;
 }
 
 .slider label:before {
@@ -57,12 +58,15 @@ body {
   width: 12px;
   height: 12px;
   display: inline-block;
-  border: 1.5px solid #0f3e4d;
+  border: 1.3px solid #0f3e4d;
   border-radius: 2px;
   position: absolute;
   top: 10px;
   left: 20px;
 }
+
+.slider label:hover {
+  background: rgba(15, 62, 77, .5);
 
 .slider input[type="checkbox"]:checked + label {
   padding: 5px 20px;
